@@ -50,22 +50,22 @@
         <div class="position-sticky pt-3 sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="kmeans">
                 <span data-feather="home" class="align-text-bottom"></span>
                 <br>
+                KMeans
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="word2vec">
+                <span data-feather="file" class="align-text-bottom"></span>
                 Word2Vec
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="tsne">
                 <span data-feather="file" class="align-text-bottom"></span>
-                TSNE
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kmeans">
-                <span data-feather="file" class="align-text-bottom"></span>
-                KMeans
+                TSNE 
               </a>
             </li>
           </ul>
@@ -75,11 +75,11 @@
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div
           class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="">Word2Vec</h1>
+          <h1 class="">KMeans</h1>
         </div>
 
         <div class="output">
-          {% include 'word2vec_plot.html' %}
+          {% include 'kmeans.html' %}
         </div>
       </main>
     </div>
